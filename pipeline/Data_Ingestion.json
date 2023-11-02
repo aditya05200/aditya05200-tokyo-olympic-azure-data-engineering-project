@@ -182,13 +182,13 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "GenderSink",
+						"referenceName": "MedalsSink",
 						"type": "DatasetReference"
 					}
 				]
 			},
 			{
-				"name": "]Medals",
+				"name": "Medals",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {

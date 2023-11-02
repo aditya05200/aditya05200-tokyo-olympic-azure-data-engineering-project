@@ -252,7 +252,7 @@
 				]
 			},
 			{
-				"name": "Medals",
+				"name": "Medal",
 				"type": "Copy",
 				"dependsOn": [
 					{

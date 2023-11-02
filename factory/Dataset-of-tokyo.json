@@ -1,0 +1,9 @@
+{
+	"name": "Dataset-of-tokyo",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "82322b56-a49b-4bf1-9f9b-4178e90a960b",
+		"tenantId": "61363c43-8420-43ca-8f82-801627e16cdf"
+	}
+}

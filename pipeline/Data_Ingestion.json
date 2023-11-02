@@ -1,5 +1,5 @@
 {
-	"name": "pipeline1",
+	"name": "Data_Ingestion",
 	"properties": {
 		"activities": [
 			{
@@ -15,8 +15,24 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
+					"source": {
+						"type": "DelimitedTextSource",
+						"storeSettings": {
+							"type": "HttpReadSettings",
+							"requestMethod": "GET"
+						},
+						"formatSettings": {
+							"type": "DelimitedTextReadSettings"
+						}
+					},
 					"enableStaging": false
-				}
+				},
+				"inputs": [
+					{
+						"referenceName": "Athletes",
+						"type": "DatasetReference"
+					}
+				]
 			}
 		],
 		"annotations": []

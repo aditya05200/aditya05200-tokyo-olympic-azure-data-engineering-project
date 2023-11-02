@@ -169,7 +169,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "Coaches",
+						"referenceName": "Gender",
 						"type": "DatasetReference"
 					}
 				],

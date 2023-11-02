@@ -1,0 +1,12 @@
+{
+	"name": "CoachesHTTP",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://github.com/aditya05200/aditya05200-tokyo-olympic-azure-data-engineering-project/blob/main/Data/Coaches.csv",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}

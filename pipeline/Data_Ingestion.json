@@ -189,7 +189,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "Gender",
+						"referenceName": "Medals",
 						"type": "DatasetReference"
 					}
 				]

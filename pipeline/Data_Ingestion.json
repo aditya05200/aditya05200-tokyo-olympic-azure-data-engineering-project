@@ -111,7 +111,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "ADLS",
+						"referenceName": "CoachesSink",
 						"type": "DatasetReference"
 					}
 				]

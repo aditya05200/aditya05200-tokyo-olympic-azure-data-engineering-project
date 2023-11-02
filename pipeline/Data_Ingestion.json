@@ -188,7 +188,7 @@
 				]
 			},
 			{
-				"name": "Medals",
+				"name": "Teams",
 				"type": "Copy",
 				"dependsOn": [
 					{
@@ -252,11 +252,11 @@
 				]
 			},
 			{
-				"name": "Teams",
+				"name": "Medals",
 				"type": "Copy",
 				"dependsOn": [
 					{
-						"activity": "Medals",
+						"activity": "Teams",
 						"dependencyConditions": [
 							"Completed"
 						]

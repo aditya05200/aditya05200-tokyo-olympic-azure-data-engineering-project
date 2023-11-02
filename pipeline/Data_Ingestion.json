@@ -190,7 +190,14 @@
 			{
 				"name": "Medals",
 				"type": "Copy",
-				"dependsOn": [],
+				"dependsOn": [
+					{
+						"activity": "Gender",
+						"dependencyConditions": [
+							"Completed"
+						]
+					}
+				],
 				"policy": {
 					"timeout": "0.12:00:00",
 					"retry": 0,
@@ -239,7 +246,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "GenderSink",
+						"referenceName": "MedalsSink",
 						"type": "DatasetReference"
 					}
 				]

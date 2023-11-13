@@ -1,5 +1,11 @@
 {
 	"name": "Dataset-of-tokyo",
+	"properties": {
+		"globalConfigurations": {
+			"factoryStagingLSReferenceName": "tokyo-olympics-snap-WorkspaceDefaultStorage",
+			"factoryStagingLSType": "LinkedServiceReference"
+		}
+	},
 	"location": "centralindia",
 	"identity": {
 		"type": "SystemAssigned",

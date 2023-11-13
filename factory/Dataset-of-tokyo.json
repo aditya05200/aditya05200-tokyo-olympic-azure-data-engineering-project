@@ -3,7 +3,8 @@
 	"properties": {
 		"globalConfigurations": {
 			"factoryStagingLSReferenceName": "tokyo-olympics-snap-WorkspaceDefaultStorage",
-			"factoryStagingLSType": "LinkedServiceReference"
+			"factoryStagingLSType": "LinkedServiceReference",
+			"PipelineBillingEnabled": "true"
 		}
 	},
 	"location": "centralindia",
